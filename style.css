@@ -56,3 +56,23 @@ body {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
 }
+
+/* Mobile View - Adjustments for smaller screens */
+@media (max-width: 375px) {
+  .card {
+    width: 90%; /* Make card fit within the screen with some padding */
+    padding: 16px;
+  }
+
+  .card img {
+    max-width: 240px; /* Adjust image size */
+  }
+
+  .card h1 {
+    font-size: 16px; /* Slightly smaller font */
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+}
