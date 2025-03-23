@@ -1,0 +1,58 @@
+/* General body styling */
+body {
+    font-family: 'Outfit', sans-serif; /* Use a clean sans-serif font */
+    background-color: #d5e1ef; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* Card container */
+.card {
+    background-color: #ffffff; /* White background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+    width: 320px; /* Fixed width */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Padding inside the card */
+}
+
+/* QR code image */
+.card img {
+    width: 100%; /* Full width of the container */
+    max-width: 280px; /* Max width for the QR code */
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+/* Heading text */
+.card h1 {
+    font-size: 18px; /* Slightly larger font */
+    font-weight: 700; /* Bold text */
+    color: #1f314f; /* Dark blue color */
+    margin: 0 0 10px; /* Margin below the heading */
+}
+
+/* Paragraph text */
+.card p {
+    font-size: 16px; /* Standard font size */
+    font-weight: 400; /* Regular weight */
+    color: #7b879d; /* Grayish blue color */
+    line-height: 1.5; /* Better line spacing */
+    margin: 0; /* No extra margin */
+}
+
+/* Attribution styling */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
